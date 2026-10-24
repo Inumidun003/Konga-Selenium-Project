@@ -1,0 +1,332 @@
+{
+  "id": "df606dad-cfd1-4838-8295-45a482a4ffa0",
+  "version": "2.0",
+  "name": "Konga_Order_flow ",
+  "url": "http://www.konga.com",
+  "tests": [{
+    "id": "84564bb9-ffa1-4670-8261-a267d66a8984",
+    "name": "Konga Invalid Card Test",
+    "commands": [{
+      "id": "a31351e7-0b13-4d33-bdd1-5dc9b713b999",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.konga.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "127f8c94-77d7-4918-a4bf-288760bf67ed",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.border-0", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7738fc36-1ce0-4fbb-b3da-6502b3cb2aae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.min-w-max:nth-child(2) > .hover\\3Atext-primary-500", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/category/computers-accessories-5227')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computers and Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2ff7d62-2adb-4407-af2e-6b5a6018206c",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.border-0", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "MacBook"
+    }, {
+      "id": "0c2fc12c-d90c-4b8c-bf59-6a98caa828fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(1) > .lucide-shopping-cart",
+      "targets": [
+        ["css=.relative:nth-child(1) > .lucide-shopping-cart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "17905d08-2305-4dca-b1bf-1eb170cbf19b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Onaopemipo1$$"
+    }, {
+      "id": "9881de23-55a8-46a6-bc24-6fcfd8e5f18f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "471b2530-5bf8-484d-86ae-5f49b285039b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,302.1333312988281)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ae8c345-dd59-4f0c-94d7-438cc651f256",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aa45bff-1b14-436e-bbb7-dfe25e8c7274",
+      "comment": "",
+      "command": "type",
+      "target": "css=.w-full:nth-child(1) .focus-visible\\3Aring-primary-500",
+      "targets": [
+        ["css=.w-full:nth-child(1) .focus-visible\\3Aring-primary-500", "css:finder"],
+        ["xpath=//input[@value='Grace']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Grace"
+    }, {
+      "id": "4c5068a2-87ac-4395-9b59-fb959e42cc11",
+      "comment": "",
+      "command": "type",
+      "target": "css=.w-full:nth-child(2) .focus-visible\\3Aring-primary-500",
+      "targets": [
+        ["css=.w-full:nth-child(2) .focus-visible\\3Aring-primary-500", "css:finder"],
+        ["xpath=//input[@value='Omosuyi']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Omosuyi"
+    }, {
+      "id": "6b60ab92-d8b1-497d-ab52-955d3325a7a3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.w-full:nth-child(3) > .relative > .focus-visible\\3Aring-primary-500",
+      "targets": [
+        ["css=.w-full:nth-child(3) > .relative > .focus-visible\\3Aring-primary-500", "css:finder"],
+        ["xpath=//input[@value='09137054776']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "09137054776"
+    }, {
+      "id": "1d71bcd0-3d31-4307-8bc6-dab8c8f2bfdf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.w-full:nth-child(4) .focus-visible\\3Aring-primary-500",
+      "targets": [
+        ["css=.w-full:nth-child(4) .focus-visible\\3Aring-primary-500", "css:finder"],
+        ["xpath=//input[@value='15,el-norija off oke-ayo,iju ishaga,lagos state.']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "15,el-norija off oke-ayo,iju ishaga,lagos state."
+    }, {
+      "id": "48c5757f-419e-40c8-8401-01c89d63e4ba",
+      "comment": "",
+      "command": "type",
+      "target": "css=.w-full:nth-child(5) .focus-visible\\3Aring-primary-500",
+      "targets": [
+        ["css=.w-full:nth-child(5) .focus-visible\\3Aring-primary-500", "css:finder"],
+        ["xpath=//input[@value='BOKKU']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "BOKKU"
+    }, {
+      "id": "77626896-d022-44c4-83a5-21bb342466a8",
+      "comment": "",
+      "command": "select",
+      "target": "css=.w-full:nth-child(6) .focus-visible\\3Aring-primary-500",
+      "targets": [],
+      "value": "label=Lagos"
+    }, {
+      "id": "76fe4730-42a3-4f20-b6ae-cd014deaedb2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.w-full:nth-child(7) .focus-visible\\3Aring-primary-500",
+      "targets": [
+        ["css=.w-full:nth-child(7) .focus-visible\\3Aring-primary-500", "css:finder"],
+        ["xpath=//input[@value='Lagos']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "Lagos"
+    }, {
+      "id": "229fbb03-b99c-4acc-b19f-e85c090d6c4f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.w-full:nth-child(8) .focus-visible\\3Aring-primary-500",
+      "targets": [],
+      "value": "label=Ifako Ijaiye"
+    }, {
+      "id": "f8c29a40-9369-41c7-ab1f-7de9c9eb7f87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=terms and conditions",
+      "targets": [
+        ["linkText=terms and conditions", "linkText"],
+        ["css=.text-gray-500:nth-child(1) > .text-primary-500", "css:finder"],
+        ["xpath=//a[contains(text(),'terms and conditions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/content/terms-and-conditions')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'terms and conditions')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8025",
+      "windowTimeout": 2000
+    }, {
+      "id": "b86bcd0e-8b9c-458a-a3ae-21a77463eb6f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,177.06666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85d8168a-df77-4efd-98ec-a4f86844dd06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close-prompt-message-button > img",
+      "targets": [
+        ["css=.close-prompt-message-button > img", "css:finder"],
+        ["xpath=//img[@alt='Close']", "xpath:img"],
+        ["xpath=//button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c547e200-bc17-4781-ae86-f21d774d668a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(1) > .lucide-shopping-cart",
+      "targets": [
+        ["css=.relative:nth-child(1) > .lucide-shopping-cart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "07e40c85-03c7-41aa-9855-56a26778c496",
+      "comment": "",
+      "command": "type",
+      "target": "id=alternatePhoneNumber",
+      "targets": [
+        ["id=alternatePhoneNumber", "id"],
+        ["css=#alternatePhoneNumber", "css:finder"],
+        ["xpath=//input[@id='alternatePhoneNumber']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "09137054776"
+    }, {
+      "id": "0a50f0af-2715-4f85-830e-8b6bf7eea352",
+      "comment": "",
+      "command": "type",
+      "target": "id=card-number",
+      "targets": [
+        ["id=card-number", "id"],
+        ["css=#card-number", "css:finder"],
+        ["xpath=//input[@id='card-number']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5078 7280 6677 1344 "
+    }, {
+      "id": "7d635313-722c-4494-8677-705af17c5a54",
+      "comment": "",
+      "command": "type",
+      "target": "id=expiry",
+      "targets": [
+        ["id=expiry", "id"],
+        ["css=#expiry", "css:finder"],
+        ["xpath=//input[@id='expiry']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "09/28"
+    }, {
+      "id": "5c26a04e-14ef-4cc8-84a9-e22da21a937b",
+      "comment": "",
+      "command": "type",
+      "target": "id=cvv",
+      "targets": [
+        ["id=cvv", "id"],
+        ["name=cvv", "name"],
+        ["css=#cvv", "css:finder"],
+        ["xpath=//input[@id='cvv']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "65d222e1-2030-42e9-9a6b-ec236c41576f",
+      "comment": "",
+      "command": "click",
+      "target": "id=card-pin-new",
+      "targets": [
+        ["id=card-pin-new", "id"],
+        ["css=#card-pin-new", "css:finder"],
+        ["xpath=//input[@id='card-pin-new']", "xpath:attributes"],
+        ["xpath=//div[@id='card-pin-holder']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e44cbaf4-44f3-4898-9085-4024e2b9ecd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=error-message",
+      "targets": [
+        ["id=error-message", "id"],
+        ["css=#error-message", "css:finder"],
+        ["xpath=//div[@id='error-message']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77e3ffb4-4758-4f7d-b6fb-5d41f0e54f2a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.data-card__content",
+      "targets": [
+        ["css=.data-card__content", "css:finder"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "413.5,113"
+    }, {
+      "id": "6de15b7d-3628-4ca8-a611-e0ac1c580657",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=error-message",
+      "targets": [
+        ["id=error-message", "id"],
+        ["css=#error-message", "css:finder"],
+        ["xpath=//div[@id='error-message']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "You have exceeded your daily transaction limit"
+    }]
+  }],
+  "suites": [{
+    "id": "5271b60d-b709-444b-9f65-aabe9b35ff67",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["84564bb9-ffa1-4670-8261-a267d66a8984"]
+  }],
+  "urls": ["http://www.konga.com/"],
+  "plugins": []
+}
