@@ -1,0 +1,27 @@
+Bug Report: Incorrect Payment Error Message
+
+Project: Konga Selenium Automation Project
+
+Module: Payment
+
+Bug Title: Incorrect error message displayed for an invalid payment method
+
+Steps to Reproduce:
+
+1. Open the Konga website.
+2. Add a product to the cart.
+3. Proceed to checkout.
+4. Try an invalid payment method.
+5. Observe the displayed error message.
+
+Expected Result: The system should display an error indicating that the payment method is invalid.
+
+Actual Result: The system displays “You have exceeded your daily transaction limit.”
+
+Status: Under Investigation
+
+Severity: To be confirmed
+
+Evidence: Screenshot of the error message, if available.
+
+Note: Verify that the daily transaction limit was not genuinely exceeded before confirming this as a defect.
